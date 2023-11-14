@@ -1,0 +1,131 @@
+[gameid] - ID_PARTIDA - FatoPartida
+[datacompleteness] - IGNORÁVEL, MAS DAQUI EU QUERO SÓ OS COMPLETOS
+[url] - NÃO QUERO
+[league] - ID_LIGA - DimLiga
+[year] - IGNORÁVEL, TENHO DATA
+[split] - LigaTemporada - DimLiga
+[playoffs] - Playoff - FatoPartida
+[date] - Data - DimTempo
+[game] - Jogo - FatoPartida
+[patch] - Patch - FatoPartida
+[participantid] - IGNORÁVEL APENAS MOSTRA ORDEM DE ESCOLHA
+[side] - Lado - FatoPartida
+[position] - Posicao - DimJogador
+[playername] - NickJogador - DimJogador 
+[playerid] - ID_Jogador - DimJogador
+[teamname] - NomeEquipe - DimEquipe
+[teamid] - ID_Equipe - DimEquipe
+[champion] - CampeaoEscolhido - FatoPartida
+[ban1] - PrimeiroBan - FatoPartida
+[ban2] - SegundoBan - FatoPartida
+[ban3] - TerceiroBan - FatoPartida
+[ban4] - QuartoBan - FatoPartida
+[ban5] - QuintoBan - FatoPartida
+[gamelength] - TempoPartida(ESTÁ EM SEGUNDOS) - FatoPartida
+[result] - Resultado (1 VITÓRIA, 0 DERROTA) - FatoPartida
+[kills] - Abates - FatoPartida
+[assists] - Assistencias - FatoPartida
+[teamkills] - AbatesEquipe - FatoPartida
+[teamdeaths] - MortesEquipe - FatoPartida
+[doublekills] - DoubleKills - FatoPartida
+[triplekills] - TripleKills - FatoPartida
+[quadrakills] - QuadraKills - FatoPartida
+[pentakills] - PentaKills - FatoPartida
+[firstblood] - PrimeiroAbate  - FatoPartida
+[firstbloodkill] - PrimeiroAbate_Abatedor - FatoPartida
+[firstbloodassist] - PrimeiroAbate_Assistente - FatoPartida
+[firstbloodvictim] - PrimeiroAbate_Vitima - FatoPartida
+[team kpm] - Abates/min - FatoPartida
+[ckpm] - Abate/min - FatoPartida
+[firstdragon] - PrimeiroDragão - FatoPartida
+[dragons] - TotalDragao - FatoPartida
+[opp_dragons] - Adv_TotalDragao - FatoPartida
+[elementaldrakes] - DragaoElemental - FatoPartida
+[opp_elementaldrakes] - Adv_DragaoElemental - FatoPartida
+[infernals] - DragaoInfernal - FatoPartida
+[mountains] - DragaoMontanha - FatoPartida
+[clouds] - DragaoNuvem - FatoPartida
+[oceans] - DragaoOceano - FatoPartida
+[chemtechs] - DragaoQuimtech - FatoPartida
+[hextechs] - DragaoHextech - FatoPartida
+[dragons (type unknown)] - NÃO QUERO
+[elders] - DragaoAnciao - FatoPartida
+[opp_elders] - Adv_DragaoAnciao - FatoPartida
+[firstherald] - PrimeiroArauto - FatoPartida
+[heralds] - ArautosAbatidos - FatoPartida
+[opp_heralds] - Adv_ArautosAbatidos - FatoPartida
+[firstbaron] - PrimeiroBarao - FatoPartida
+[barons] - BaroesAbatidos - FatoPartida
+[opp_barons] - Adv_Baroes - FatoPartida
+[firsttower] - PrimeiraTorre - FatoPartida
+[towers] - TorresDerrubadas - FatoPartida
+[opp_towers] - Adv_TorresDerrubadas - FatoPartida
+[firstmidtower] - PrimeiraTorre - FatoPartida
+[firsttothreetowers] - PrimeiroTresTorres - FatoPartida
+[turretplates] - BarricadasDestruidas - FatoPartida
+[opp_turretplates] - BarricadasDestruidasOpo - FatoPartida
+[inhibitors] - InibidoresDestruidos - FatoPartida
+[opp_inhibitors] - InibidoresDestruidosOpo - FatoPartida
+[damagetochampions] - DanoaCampeoes - FatoPartida
+[dpm] - Dano/min - FatoPartida
+[damageshare] - %DanodaEquipe - FatoPartida
+[damagetakenperminute] - DanoRecebido/min - FatoPartida
+[damagemitigatedperminute] - DanoMitigado/min - FatoPartida
+[wardsplaced] - WardsPosicionadas - FatoPartida
+[wpm] - Wards/min - FatoPartida
+[wardskilled] - WardsAbatidas - FatoPartida
+[wcpm] - WardsControlePosicionadas/min - FatoPartida
+[controlwardsbought] - WardsControleCompradas - FatoPartida
+[visionscore] - PlacarVisao - FatoPartida
+[vspm] - PlacarVisao/min - FatoPartida
+[totalgold] - OuroTotal - FatoPartida
+[earnedgold] - OuroRecebido - FatoPartida
+[earned gpm] - OuroRecebido/min - FatoPartida
+[earnedgoldshare] - %OuroTotalRecebido - FatoPartida
+[goldspent] - OuroGastoa - FatoPartida
+[gspd] - OuroGasto/Dano - FatoPartida
+[total cs] - FarmTotal - FatoPartida
+[minionkills] - AbateMinions - FatoPartida
+[monsterkills] - AbateMonstros - FatoPartida
+[monsterkillsownjungle] - AbateSelvaAliada - FatoPartida
+[monsterkillsenemyjungle] - AbateSelvaAdv - FatoPartida
+[cspm] - Farm/min - FatoPartida
+[goldat10] - Ouro10min
+[xpat10] - XP10min
+[csat10] - Farm10min
+[opp_goldat10] - Adv_Ouro10min
+[opp_xpat10] - Adv_XP10min
+[opp_csat10] - Farm10min 
+[golddiffat10] - OuroDiff10min
+[xpdiffat10] - XPDiff10min
+[csdiffat10] - FarmDiff10min
+[killsat10] - Abates10min
+[assistsat10] - Assists10min
+[deathsat10] - Mortes10min
+[opp_killsat10] - Adv_Abates10min
+[opp_assistsat10] - Adv_Assist10min
+[opp_deathsat10] - Adv_Mortes10min
+[goldat15] - Ouro15min
+[xpat15] - XP15min
+[csat15] - Farm15min
+[opp_goldat15] - Adv_Ouro15min
+[opp_xpat15] - Adv_XP15min
+[opp_csat15] - Adv_Farm15min
+[golddiffat15] - OuroDiff15min
+[xpdiffat15] - XPDiff15min
+[csdiffat15] - FarmDiff15min
+[killsat15] - Abates15min
+[assistsat15] - Assist15min
+[deathsat15] - Mortes15min
+[opp_killsat15] - Adv_Abates10min
+[opp_assistsat15] - Adv_Assist15min
+[opp_deathsat15] - Adv_Mortes15min
+
+
+
+
+
+FILTRO
+
+[datacompleteness] = 'complete'
+[league] IN ('CBLOL', 'VCS', 'WLDs', 'LEC', 'LCK', 'LCS')
