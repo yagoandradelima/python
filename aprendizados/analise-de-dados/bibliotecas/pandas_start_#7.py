@@ -51,8 +51,8 @@ print(ttn.drop('Cabin', axis=1, inplace=True))
 print(ttn.columns)
 print()
 #Dentro de Fare existe um valor em branco. Dentro de tantas linhas, apenas uma possui esse formato
-#Por isso não vale a pena deletar essa coljuna e sim preencher o espaço vazio
-#Como são poucos dados, sibstitui pelo valor que mais aparece
+#Por isso não vale a pena deletar essa coluna e sim preencher o espaço vazio
+#Como são poucos dados, substitui pelo valor que mais aparece
 print(ttn['Fare'].value_counts())
 print()
 #Preenchendo com o espaço vazio
